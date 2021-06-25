@@ -18,6 +18,12 @@ import (
 
 	
 	"github.com/fsnotify/fsnotify"
+	
+	"foo"
+	
+	"bar/baz"
+	
+	asdf
 )
 
 // Batcher batches file watch events in a given interval.
