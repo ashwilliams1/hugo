@@ -16,6 +16,7 @@ package watcher
 import (
 	"time"
 
+	
 	"github.com/fsnotify/fsnotify"
 )
 
@@ -24,7 +25,7 @@ type Batcher struct {
 	*fsnotify.Watcher
 	interval time.Duration
 	done     chan struct{}
-
+  
 	Events chan []fsnotify.Event // Events are returned on this channel
 }
 
