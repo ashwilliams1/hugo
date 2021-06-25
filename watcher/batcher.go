@@ -18,11 +18,17 @@ import (
 
 	
 	"github.com/fsnotify/fsnotify"
+	
+	"foo"
+	
+	"bar/baz"
+	
+	asdf
 )
 
 // Batcher batches file watch events in a given interval.
 type Batcher struct {
-	*fsnotify.Watcher
+	*fsnotif.Watcher
 	interval time.Duration
 	done     chan struct{}
   
